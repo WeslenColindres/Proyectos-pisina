@@ -1,15 +1,13 @@
 {
   "files": {
-    "main.css": "/Proyectos-pisina/static/css/main.073c9b0a.css",
-    "main.js": "/Proyectos-pisina/static/js/main.6964b0aa.js",
-    "static/js/787.45ba81a7.chunk.js": "/Proyectos-pisina/static/js/787.45ba81a7.chunk.js",
+    "main.css": "/Proyectos-pisina/static/css/main.84bcac6b.css",
+    "main.js": "/Proyectos-pisina/static/js/main.8332ce52.js",
     "index.html": "/Proyectos-pisina/index.html",
-    "main.073c9b0a.css.map": "/Proyectos-pisina/static/css/main.073c9b0a.css.map",
-    "main.6964b0aa.js.map": "/Proyectos-pisina/static/js/main.6964b0aa.js.map",
-    "787.45ba81a7.chunk.js.map": "/Proyectos-pisina/static/js/787.45ba81a7.chunk.js.map"
+    "main.84bcac6b.css.map": "/Proyectos-pisina/static/css/main.84bcac6b.css.map",
+    "main.8332ce52.js.map": "/Proyectos-pisina/static/js/main.8332ce52.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.6964b0aa.js"
+    "static/css/main.84bcac6b.css",
+    "static/js/main.8332ce52.js"
   ]
 }
