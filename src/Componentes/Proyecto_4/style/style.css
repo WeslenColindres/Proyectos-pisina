@@ -1,0 +1,13 @@
+.pokemon {
+    border: 1px solid #333;
+    padding: 10px;
+    background: #f5f5f5;
+    text-align:center;
+}
+.pokemonlist{
+    display: grid;
+    grid-template-columns: 1fr 100px 1fr;
+
+    max-width:800px;
+    margin: auto ;
+}
