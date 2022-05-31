@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import classes from './style/index.module.scss';
 
 type col = {
     colores:string[],
@@ -20,20 +21,17 @@ export default function CambioColorBackGround(props:col){
     
     return(
 
-        <main style = {BackGround}>
+        <header style = {BackGround} className={classes.cambio} >
         
-            <div style={{background : 'blue'}}>
-               {props.colores[Ramdom]}
+            <div className={classes.colores} >
+               
             </div>
-            <button onClick={()=> 
+            <button className={classes.botton} onClick={()=> 
                                 setRamdom(Math.floor(Math.random() 
                                 * props.colores.length))}>
-                                    Click RamdomColors
+                                    <span>{props.colores[Ramdom]}</span>
                                 </button>
-
-        
-        
-        </main>
+        </header>
 
     );
 

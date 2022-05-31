@@ -32,9 +32,9 @@ export default function Proyecto_1_Contador () {
                 {Counter}
                 </h1>
                 <div>
-                     <Boton onClick = {CounterDecraease}/>
-                     <Boton onClick = {CounterReset}/>
-                     <Boton onClick = {CounterIncrease}/>
+                     <Boton onClick = {CounterDecraease} nombre ='Decraease'/>
+                     <Boton onClick = {CounterReset} nombre ='Reset'/>
+                     <Boton onClick = {CounterIncrease} nombre ='Increase'/>
                 </div>
             </div>
 

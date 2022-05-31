@@ -1,0 +1,50 @@
+@import "./../../../Proyecto_3/style/variables.scss";
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.colores{
+
+    
+    background: $BackGround;
+    display:flex;
+    justify-content: right;
+    align-items: center;
+
+    h1{
+        padding: 1.5rem 2.5rem;
+        background: linear-gradient(220deg, $primaty, rgba($primaty, 0.5));
+        border-radius: $borderRadius calc(#{$borderRadius} * 10);
+    }
+    
+
+}
+.botton{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(100vh - #{$headerHeight});
+    height: 80px;
+    background: #121212;
+    color: #fff;
+    font-family:$Poppins; 
+    font-size: 20px; 
+    font-weight: 500;
+    border:none;  
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.3s ease all;
+    border-radius: $borderRadius;
+}
+
+.cambio{
+    height: calc(100vh - #{$headerHeight});
+    width: calc(100vh - #{$headerHeight});
+    background: $BackGround;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+} 

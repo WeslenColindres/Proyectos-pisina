@@ -1,7 +1,9 @@
 import React, {SyntheticEvent} from "react";
+import classes from '../style/boton.module.scss';
 interface props{
 
-    onClick : () => void
+    onClick : () => void,
+    nombre:string,
     
 }
 
@@ -9,7 +11,7 @@ interface props{
 
     return(
         
-            <button type="button" onClick={props.onClick}>datos</button>
+            <button className={classes.botton} type="button" onClick={props.onClick}>{props.nombre}</button>
         
     );
 
