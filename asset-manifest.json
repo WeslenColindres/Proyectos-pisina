@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Proyectos-pisina/static/css/main.a5f00248.css",
-    "main.js": "/Proyectos-pisina/static/js/main.9933125e.js",
+    "main.js": "/Proyectos-pisina/static/js/main.0d9369a3.js",
     "index.html": "/Proyectos-pisina/index.html",
     "main.a5f00248.css.map": "/Proyectos-pisina/static/css/main.a5f00248.css.map",
-    "main.9933125e.js.map": "/Proyectos-pisina/static/js/main.9933125e.js.map"
+    "main.0d9369a3.js.map": "/Proyectos-pisina/static/js/main.0d9369a3.js.map"
   },
   "entrypoints": [
     "static/css/main.a5f00248.css",
-    "static/js/main.9933125e.js"
+    "static/js/main.0d9369a3.js"
   ]
 }
