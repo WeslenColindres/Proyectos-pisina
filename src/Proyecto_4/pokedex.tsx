@@ -8,7 +8,7 @@ export default function Pokedex (){
    return(
 
     <>
-        <h1>Pokedex</h1>
+        
         <div className={classes.div}>
             <ul className={classes.ul}>
                 <li >

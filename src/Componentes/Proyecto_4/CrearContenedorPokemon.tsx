@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import './style/style.css';
+import classes from './style/style.module.scss';
 
 type pokemon = {
     pokemon:{}
@@ -22,12 +22,15 @@ export default function Pokemondatos(){
             )}, [])
            
     return(
-               
-        <div className="pokemonlist">
-            <div className="pokemon">
-                 <img src={PokemonImg}  alt={PokemonName}/> 
+           <>
+              
+       <div className={classes.pokemonlist}>
+
+            <div className={classes.pokemon}>
+                 <img className={classes.img} src={PokemonImg}  alt={PokemonName}/> 
               <p>{PokemonName}</p>
             </div>
         </div>
+        </>
     );
 }

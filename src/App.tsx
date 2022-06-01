@@ -12,10 +12,10 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home/>}/>
-        <Route path="/PageUno" element={<Proyecto_1_Contador/>}/>
-        <Route path="/PageDos" element={<CambioBackground/>}/>
-        <Route path="/PageTres" element={<Pokedex/>}/>
-        {/* <Route path="/PageCTA" element={<PageCTA/>}/> */}
+        <Route path="/Proyecto_1" element={<Proyecto_1_Contador/>}/>
+        <Route path="/Proyecto_2" element={<CambioBackground/>}/>
+        <Route path="/Proyecto_4" element={<Pokedex/>}/>
+        <Route path="/YO" element={<Home/>}/> 
       </Routes>
       
     </Layout>

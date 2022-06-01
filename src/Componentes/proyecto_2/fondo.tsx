@@ -21,7 +21,7 @@ export default function CambioColorBackGround(props:col){
     
     return(
 
-        <header style = {BackGround} className={classes.cambio} >
+        <div style = {BackGround} className={classes.cambio} >
         
             <div className={classes.colores} >
                
@@ -31,7 +31,7 @@ export default function CambioColorBackGround(props:col){
                                 * props.colores.length))}>
                                     <span>{props.colores[Ramdom]}</span>
                                 </button>
-        </header>
+        </div>
 
     );
 

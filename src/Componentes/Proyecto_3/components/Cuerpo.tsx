@@ -38,13 +38,13 @@ export default function Header(){
     };
     
     const ctaClickHandler = () =>{
-        historyal('/PageCTA')
+        historyal('/YO')
     }
 
     return(
     <header className={classes.header}>
        <div className={classes.header__contenedor}>
-           <h2 className={classes.header__contenedor__logo}> NavBar </h2>
+           <h2 className={classes.header__contenedor__logo}> Proyecto #3 </h2>
      
            <nav className={`
                         ${classes.header__contenedor__nav} 
@@ -54,17 +54,17 @@ export default function Header(){
             }>
             <ul>
                <li>
-                   <NavLink to="/PageUno">PageUno</NavLink>
+                   <NavLink to="/Proyecto_1">Proyecto #1</NavLink>
                </li>
                <li>
-                   <NavLink to="/PageDos">PageDos</NavLink>
+                   <NavLink to="/Proyecto_2">Proyecto #2</NavLink>
                </li>
                <li>
-                   <NavLink to="/PageTres">PageTres</NavLink>
+                   <NavLink to="/Proyecto_4">Proyecto #4</NavLink>
                </li>
              
            </ul>
-           <button onClick={ctaClickHandler}>CTA Page</button>
+           <button onClick={ctaClickHandler}>YO</button>
        </nav>
        <div className={classes.header__contenedor__toggle}>
        {!MenuOpen ? (

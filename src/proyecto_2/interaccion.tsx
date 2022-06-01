@@ -9,9 +9,9 @@ export default function CambioBackground (){
    //let color:number = Math.floor(Math.random() * Color.length );
    
     return(
-        <div >
+        <>
             <CambioColorBackGround colores = {Color}/>
             
-        </div>
+        </>
     );
 }

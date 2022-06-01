@@ -30,3 +30,12 @@ $headerHeight: 100px;
         }
     }
 }
+
+@mixin breakpoint2($point){
+    @if $point == md {
+        // 768px
+        @media (max-height: 664px) {
+            @content;
+        }
+    }
+}

@@ -1,0 +1,73 @@
+@import './../../../Proyecto_3/style/variables.scss';
+
+.pokemon {
+    border: 1px solid #333;
+    padding: 10px;
+    background: #b71d1d;
+    text-align:center;
+    height: auto;
+    width: auto;
+
+    @include breakpoint(md){
+      
+        border: 1px solid #333;
+        padding: 10px;
+        background: #b71d1d;
+        text-align:center;
+        height: 250px;
+        width: 250px;
+        
+       
+ 
+    }
+    @include breakpoint2(md){
+      
+        border: 1px solid #333;
+        padding: 10px;
+        background: #f5f5f5;
+        text-align:center;
+        height: 100px;
+        width: 100px;
+    }
+}
+.pokemonlist{
+   
+        overflow: hidden;
+        color: #121212;
+        margin: 0 auto;
+        max-width: 1920px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+     
+        
+}
+
+.img{
+  
+    padding: 10px;
+    text-align:center;
+    height: auto;
+    width: auto;
+
+    @include breakpoint(md){
+      
+        padding: 10px;
+        text-align:center;
+        height: auto;
+        width: auto;
+        
+       
+ 
+    }
+    @include breakpoint2(md){
+      
+        padding: 10px;
+        text-align:center;
+        height: auto;
+        width: auto;
+    }
+}
+
